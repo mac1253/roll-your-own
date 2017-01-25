@@ -28,6 +28,7 @@ Complete Ubuntu 16.04 local development environment setup guide for Drupal 8. In
 [8. IDE Installation](#8-ide-installation)
 
 [9. Optional Applications](#9-optional-applicationsinformation)
+
 [10. Optional Database creation and Drupal Installation](#10-optionaldatabcreation)
 
 ---
@@ -633,7 +634,7 @@ $ chmod 777 files
 $ chmod 777 settings.php
 ```
 
-####Complete Install
+####Complete the Install
 1. Open browser and navigate to *localhost/newsite.dev*
 2. Complete install, making sure to fill in database name and password
 
@@ -990,7 +991,8 @@ $ sudo apt-get update
 $ sudo apt-get install hexchat
 ```
 
-#10 Optional Database Creation and Drupal installation
+#10
+###Optional Database Creation and Drupal installation
 
 ---
 
