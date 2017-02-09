@@ -378,6 +378,12 @@ $ composer global require drush/drush:dev-master
     ```bash
 $ composer global update
 ```
+If you run into an issue where the composer.json file has NOT been created and ran then you need to do this.
+4. Create composer.json file
+```bash
+$ composer require drush/drush 
+```
+Step 2 I believe is supposed to do this but if not just do step 4
 
 ---
 
