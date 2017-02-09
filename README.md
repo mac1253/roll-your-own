@@ -807,6 +807,23 @@ $ rvm use 2.2.2
     ```Bash
 $ ruby -v
 ```
+If you can't install ruby and use it, theres a possibility, a dead PPA will stop you from doing these.
+12. Check which ppa is dead
+```bash
+sudo apt-get update | grep "Failed"
+```
+or (this will list your errors when its done updating)
+```bash
+sudo apt-get update
+```
+13. Remove dead ppa
+```bash
+sudo add-apt-repository --remove ppa:{failing ppa}
+```
+For me it was Chromium.
+```bash
+sudo add-apt-repository --remove ppa:chromium-daily
+```
 
 ---
 
